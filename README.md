@@ -1,25 +1,34 @@
-<!--hide-->
-# Web scraping in Python - Step by step guide
-<!--endhide-->
+# Tesla Revenue Scraper
 
-- Become familiar with a web environment in which you want to extract certain information.
-- Develop a code to obtain its content and extract it from the specific table.
-- Use a database to store the data and process it.
+A simple web scraper that extracts Tesla's revenue data from Macrotrends.
 
-## 🌱  How to start this project.
+## Features
 
-Follow the instructions below:
+- Extracts revenue data for Tesla from the Macrotrends website.
+- Handles  403 Forbidden errors by retrying the request with a custom User-Agent header.
 
-1. Create a new repository by forking the [Git project](https://github.com/4geeksacademy/web-scraping-project-tutorial) or [by clicking here](https://github.com/4geeksacademy/web-scraping-project-tutorial/fork).
-2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
+## Requirements
 
-## 🚛 How to deliver this project
+- Python  3
+- `requests`
+- `beautifulsoup4`
+- `pandas`
 
-Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+## Installation
 
-## 📝 Instructions
+To set up the project, you will need Python  3. It is recommended to create a virtual environment. You can install the required packages using pip:
 
-Read the contents of the `./INSTRUCTIONS.md` file containing the steps to complete the project, follow them and develop the solution first in `./src/explore.ipynb` for testing and then move the clean code to `./src/app.py`. Be sure to delete the notebook once you no longer need it to keep the project clean and tidy.
 
-> NOTE: Solution: https://github.com/4geeksacademy/web-scraping-project-tutorial/blob/main/src/solution.py
+## Usage
+
+1. Import the necessary libraries:
+
+
+2. Define the URL for Tesla's revenue chart:
+
+
+3. Retrieve the HTML content of the page:
+
+
+4. If a  403 Forbidden error is encountered, use a custom User-Agent header to retry the request:
+
