@@ -30,5 +30,15 @@ To set up the project, you will need Python  3. It is recommended to create a vi
 3. Retrieve the HTML content of the page:
 
 
-4. If a  403 Forbidden error is encountered, use a custom User-Agent header to retry the request:
+4. If a  403 Forbidden error is encountered, use a custom User-Agent header to retry the request
+
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you'd like to contribute code, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
